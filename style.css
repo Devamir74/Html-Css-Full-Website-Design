@@ -1,0 +1,402 @@
+/* header-section start */
+
+.maindiv {
+    padding: 10px;
+    background-color: #8b57fc;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: end;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.menu ul li a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.menu ul li a:hover {
+    color: black;
+}
+
+/* header-section end */
+
+/* <!-- banner-section start--> */
+
+.banner-img {
+    height: 1050px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    background-image: url(https://i.postimg.cc/LsvGtLF2/banner-bg.png);
+}
+
+.banenr-left-item {
+    padding: 12%;
+}
+
+.banenr-left-item .color_h1 {
+    color: #8b57fc;
+    font-size: 65px;
+    margin-left: -64%;
+    /* margin-bottom: -47px; */
+}
+
+.banenr-btn {
+    color: rgb(255, 255, 255);
+    background-color: #f344cf;
+    margin-left: 3px;
+}
+
+.banenr-btn:hover {
+    color: black;
+    background: rgb(255, 250, 250);
+}
+
+.banenr-left-item h1 {
+    font-size: 61px;
+    margin-left: -70%;
+    color: black;
+}
+
+.banenr-btn {
+    color: rgb(255, 255, 255);
+    background-color: #f344cf;
+}
+
+.banner-3div {
+    position: relative;
+}
+
+.banner-3div .div1 {
+    position: absolute;
+    left: -9%;
+    height: 70px;
+    width: 70px;
+    background-color: #f344cf;
+    margin-top: -26%;
+}
+
+.banner-3div .div2 {
+    height: 70px;
+    width: 70px;
+    background-color: #8b57fc;
+    margin-top: -9%;
+    margin-left: -9%;
+}
+
+.banner-3div .div3 {
+    left: -9%;
+    height: 70px;
+    width: 70px;
+    background-color: #8b57fc;
+    margin-top: -15%;
+    margin-left: -103px;
+}
+
+/* banner-section end */
+
+.meditation-item {
+    margin-left: 40px;
+}
+
+.meditation-img {
+    margin-top: -48%;
+    margin-left: 25px;
+}
+
+.text-center {
+    text-align: center !important;
+    margin-left: -32px;
+}
+
+/* banner-section end */
+
+/* About Us section start */
+
+.about-img {
+    /* padding: 510px; */
+    height: 1050px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://i.postimg.cc/wTQHHJLz/about-bg.png);
+}
+
+.about-text-mindiv {
+    padding: 25% 12%;
+}
+
+.about-text {
+    color: white;
+    width: 548px;
+    height: 382px;
+    background-color: #8b57fc;
+    border-radius: 50px 50px 50px 50px;
+    padding: 50px;
+}
+
+/* .about-text, h1 p {
+    .about-text, h1 p {
+        text-align: center;
+        padding: 68px;
+    }
+} */
+
+.about-more-btn a {
+    text-decoration: none;
+    background-color: #8b57fc;
+    color: white;
+    display: inline-block;
+    border-radius: 0px;
+    transition: .5s;
+}
+
+.about-more-btn a:hover {
+    background-color: #f344cf;
+    color: white;
+}
+
+a,
+.about-more-btn {
+    margin-left: 10%;
+}
+
+/* about-section end */
+
+/* <!-- customer say section --> */
+
+.customer-section {
+    background-color: #8b57fc;
+    height: 600px;
+}
+
+.customer-heading h1 {
+    color: white;
+}
+
+.customer-heading-border {
+    border: 1px solid rgba(17, 12, 1, 0.682);
+    height: 1px;
+    width: 450px;
+    margin: auto;
+}
+
+.customer-center-text {
+    height: 200px;
+    width: 50%;
+    color: rgb(16, 3, 3);
+    background-color: #f6f5f8;
+    float: left;
+}
+
+.customer-center-text p {
+    padding: 55px;
+}
+
+.customar-top-shepe,
+img {
+    margin-bottom: -14px;
+    margin-left: 10px;
+}
+
+.user-img {
+    float: left;
+}
+
+.user-img img {}
+
+.user-text {
+    float: left;
+    margin-left: 15px;
+}
+
+.user-text h3 {
+    color: white;
+}
+
+.user-text p {
+    color: white;
+}
+
+.slider-btn {
+    height: 20px;
+    width: 40px;
+    background-color: #f344cf;
+}
+
+.carousel-indicators {
+    /* left: -81%; */
+    margin-right: 52%;
+    margin-left: -40%;
+    bottom: 2%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    margin-left: 3px;
+    border-radius: 50%;
+}
+
+.customer-center-text {
+    float: left;
+}
+
+.side-img img {
+    float: left;
+    height: 300px;
+    max-width: 300px;
+    margin-left: 15%;
+    border-radius: 50%;
+    border: 3px solid red;
+    margin-bottom: 10px;
+}
+
+/* <!-- customer say section end --> */
+
+/* <!-- Our Pricing section start --> */
+
+.pricing-secntion {
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://i.postimg.cc/4ydGwJwM/pricing-bg.png);
+}
+
+.pricing-secntion .border {
+    text-align: center;
+    height: 3px;
+    width: 15%;
+    margin: auto;
+    background-color: #8b57fc;
+}
+
+.price-heading,
+h2 {
+    text-align: center;
+    margin-top: 12%;
+}
+
+.p-heading-border {
+    height: 7px;
+    width: 32%;
+    margin: auto;
+    background-color: #ff47d9;
+}
+
+.text-price,
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.text-price {
+    height: 165px;
+    width: 246px;
+    margin: auto;
+    font-size: 70px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #8b57fc;
+    margin-top: 5%;
+    padding: 25px;
+    color: white;
+}
+
+.text-price span {
+    font-size: 17px;
+    margin-left: -17px;
+}
+
+.p-down-text.text-center {
+    padding: 34px;
+}
+
+/* <!-- Our Pricing section end --> */
+
+/* footer-section start */
+
+.footer-section {
+    height: 900px;
+    background-color: #252525;
+}
+
+.form-heading h1 {
+    color: white;
+    padding-top: 10%;
+    display: inline-block;
+    text-align: center;
+}
+
+.form-section {
+    background-color: #e05306;
+    height: 450px;
+}
+
+.text-bt,
+:focus {
+    outline: none;
+}
+
+.text-bt {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.soical ul li {
+    margin-bottom: -17px;
+}
+
+.soical,
+ul,
+li,
+img {
+    display: inline-block;
+}
+
+.img img {
+    float: left;
+}
+
+.number3 p {
+    float: left;
+    color: white;
+    padding: 30px 20px;
+}
+
+/* footer-section end */
+
+/* copyright-seciton start */
+
+.small-footer {
+    background-color: #8b57fc;
+    text-align: center;
+    padding: 30px;
+}
+
+.small-footer p {
+    color: white;
+    font-size: 20px;
+    word-spacing: 5px;
+    transition: .5s;
+}
+
+.small-footer p:hover {
+    color: #04010b;
+}
+
+/* End project.... */
